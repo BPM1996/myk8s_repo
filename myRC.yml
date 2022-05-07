@@ -13,6 +13,6 @@ spec:
      spec:
         containers:
         - name: myjavaapp-container   
-          image: maha4iac/mahaonlinestore:1
+          image: tomcat:8.5.37-jre8
           ports:
           - containerPort: 8080 
